@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>imgZoomAndRotate</title>
+</head>
+<style>
+    .zoomImgs{
+        width: 150px;;
+    }
+</style>
+<body>
+
+<div>
+    <div>
+         <span href="##" id="#">
+            <img src="img/01.jpg" class='zoomImgs'>
+        </span>
+        <img src="img/02.jpg" class='zoomImgs'>
+    </div>
+    <img src="img/03.jpg" class='zoomImgs'>
+</div>
+<p>
+    <img src="img/04.jpg" class='zoomImgs'>
+    <img src="img/05.jpg" class='zoomImgs'>
+</p>
+<div>
+    <img src="img/06.png" class="zoomImgs">
+</div>
+
+
+
+<script src="jquery.1.11.3.min.js"></script>
+<script src="jquery.mousewheel.js"></script>
+<script src="jquery.drag.js"></script>
+<script src="imgZoomAndRotate.js" ></script>
+<script>
+    $('.zoomImgs').imgZoomAndRotate({'loop':true})
+
+</script>
+
+
+</body>
+</html>
