@@ -9,7 +9,8 @@
     $(imgs).imgZoomAndRotate()
     可选参数{'loop':true}，图片切换时可循环。
 
-    作者：leopold
+    作者：leopold;
+    github:https://github.com/lenisleopold/imgZoomAndRotate.git
 */
 
 (function ($) {
